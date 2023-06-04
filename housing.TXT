@@ -1,0 +1,52 @@
+1. Title: Boston Housing Data
+
+2. Sources:
+   (a) Origin:  This dataset was taken from the StatLib library which is
+                maintained at Carnegie Mellon University.
+   (b) Creator:  Harrison, D. and Rubinfeld, D.L. 'Hedonic prices and the 
+                 demand for clean air', J. Environ. Economics & Management,
+                 vol.5, 81-102, 1978.
+   (c) Date: July 7, 1993
+
+3. Past Usage:
+   -   Used in Belsley, Kuh & Welsch, 'Regression diagnostics ...', Wiley, 
+       1980.   N.B. Various transformations are used in the table on
+       pages 244-261.
+    -  Quinlan,R. (1993). Combining Instance-Based and Model-Based Learning.
+       In Proceedings on the Tenth International Conference of Machine 
+       Learning, 236-243, University of Massachusetts, Amherst. Morgan
+       Kaufmann.
+
+4. Relevant Information:
+
+   Concerns housing values in suburbs of Boston.
+
+5. Number of Instances: 506
+
+6. Number of Attributes: 13 continuous attributes (including "class"
+                         attribute "MEDV"), 1 binary-valued attribute.
+
+7. Attribute Information:
+
+    1. CRIM      tasa de criminalidad per cápita por ciudad
+    2. ZN        proporción de suelo residencial zonificado para lotes de más de
+                 25,000 pies cuadrados
+    3. INDUS     proporción de acres comerciales no minoristas por ciudad
+    4. CHAS      Variable ficticia de Charles River (= 1 si los límites del tramo
+                 río; 0 de lo contrario)
+    5. NOX       concentración de óxidos nítricos (partes por 10 millones)
+    6. RM        promedio de cuartos por vivienda
+    7. AGE       proporción de unidades ocupadas por sus propietarios construidas antes de 1940
+    8. DIS       distancias ponderadas a cinco centros de empleo de Boston
+    9. RAD       índice de accesibilidad a carreteras radiales
+    10. TAX      tasa de impuesto a la propiedad de valor total por $ 10,000
+    11. PTRATIO  proporción de alumnos por maestro por ciudad
+    12. B        1000(Bk - 0.63)^2 donde Bk es la proporción de negros
+                 por pueblo
+    13. LSTAT    % estado más bajo de la población
+    14. MEDV     Valor medio de las viviendas ocupadas por sus propietarios en miles de dólares
+
+8. Missing Attribute Values:  None.
+
+
+
